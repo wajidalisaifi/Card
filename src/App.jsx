@@ -3,6 +3,7 @@ import './App.css'
 
 import Card from './Component/Card'
 import Mahak from './Component/Mahak';
+import Navebar from './Component/Navebar';
 
 export default function () {
 
@@ -112,7 +113,7 @@ export default function () {
 
   return (
     <>
-
+    <Navebar/>
       <div className="parent">
         {
           jobs.map((value, index) => (
@@ -126,7 +127,7 @@ export default function () {
 
       </div>
 
-      <Mahak/>
+  
     </>
   )
 
